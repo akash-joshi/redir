@@ -1,0 +1,8 @@
+Hi
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+const site = urlParams.get('site');
+fetch("/urls.json")
+  .then(response => response.json())
+  .then(json => console.log(json));
+</script>
