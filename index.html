@@ -6,7 +6,7 @@ const site = urlParams.get('site');
 fetch("/redir/urls.json")
   .then(response => response.json())
   .then(json => {
-    if(urlParams.has('site){
+    if(urlParams.has('site'){
       location.href = json.site;
     }
   });
