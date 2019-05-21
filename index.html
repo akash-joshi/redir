@@ -5,6 +5,8 @@ const urlParams = new URLSearchParams(window.location.search);
 const site = urlParams.get('site');
 fetch("/redir/urls.json")
   .then(response => response.json())
-  .then(json => console.log(json));
+  .then(json => {
+    location.href = json.site;
+  });
 </script>
 </body>
