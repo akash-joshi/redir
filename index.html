@@ -3,13 +3,13 @@ Hi
 <script>
 const urlParams = new URLSearchParams(window.location.search);
 const site = urlParams.get('site');
+
 fetch("/redir/urls.json")
   .then(response => response.json())
   .then(json => {
-    if(urlParams.has('site')){
-        const data = JSON.parse(json);
-        console.log(`E ${data.site}`)
-        location.href = json.site;
+    if(urlParams.has('site') && json[site]){
+        console.log(json[site]);
+        location.href = json[site];
     }
   });
 </script>
