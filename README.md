@@ -6,7 +6,7 @@ Redirect using ```http://url.co/redir?=key``` with the value being stored in url
 
 You can put anything on the page, like an ad or a signup page, currently using an ad from makerads
 
-Connect with me on [Twitter](https://twitter.com/akashtrikon) if you want me to help set this up for you !
+> Connect with me on [Twitter](https://twitter.com/akashtrikon) if you want me to help set this up for you !
 
 ## Example :
 
