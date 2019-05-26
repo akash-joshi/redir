@@ -4,8 +4,12 @@ A simple redirector using the ```urls.json``` file as a database.
 
 Redirect using ```http://url.co/redir?=key``` with the value being stored in urls.json.
 
-You can put anything in the middle, like an ad or a signup page, currently using an ad from makerads
+You can put anything on the page, like an ad or a signup page, currently using an ad from makerads
 
-Example :
+## Example :
 
 ![Example](https://raw.githubusercontent.com/akash-joshi/redir/master/Capture.PNG)
+
+## Support Me :
+
+<a href="https://www.buymeacoffee.com/akashjoshi" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;"></a>
